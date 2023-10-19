@@ -1,7 +1,37 @@
 from turtle import *
 # uppercase letters go up here
 
+def drawH():
+  penup()
+  goto(-50, -50)
+  pendown()
+  forward(125)
+  left(90)
+  forward(75)
+  right(180)
+  forward(150)
+  right(180)
+  forward(75)
+  left(90)
+  forward(125)
+  right(90)
+  forward(75)
+  right(180)
+  forward(150)
+  penup()
 
+def drawW():
+  goto(125,-50)
+  pendown()
+  left(45)
+  forward(75)
+  left(95)
+  forward(70)
+  right(95)
+  forward(75)
+  left(95)
+  forward(75)
+  
 def drawC():
   goto(0, 0)
   penup()
@@ -203,6 +233,7 @@ def drawP():
   goto(100,50)
   goto(100,25)
   goto(75,25)
+
 def drawR ():
   penup()
   goto(-50,-50)
@@ -227,6 +258,27 @@ def drawR ():
   forward(50)
   left(120)
   forward(125)
+
+def writeV():
+  penup()
+  goto(-200,0)
+  pendown()
+  left(135)
+  forward(-200)
+  right(45)
+  forward(200)
+
+def writeC():
+  penup()
+  goto(100,50)
+  pendown()
+  left(90)
+  forward(150)
+  left(90)
+  forward(175)
+  left(90)
+  forward(150)
+
 
 
 
