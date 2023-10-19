@@ -203,7 +203,25 @@ def drawP():
   goto(100,50)
   goto(100,25)
   goto(75,25)
+def writeV():
+  penup()
+  goto(-200,0)
+  pendown()
+  left(135)
+  forward(-200)
+  right(45)
+  forward(200)
 
+def writeC():
+  penup()
+  goto(100,50)
+  pendown()
+  left(90)
+  forward(150)
+  left(90)
+  forward(175)
+  left(90)
+  forward(150)
 
 
 
