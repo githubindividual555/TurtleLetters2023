@@ -227,7 +227,7 @@ def drawR ():
   forward(50)
   left(120)
   forward(125)
-drawR()
+
 
 
 
